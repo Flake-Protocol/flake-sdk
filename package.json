@@ -1,0 +1,17 @@
+{
+  "name": "@flake-dex/sdk",
+  "version": "1.0.0",
+  "description": "SDK for interacting with the Flake Protocol",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "ethers": "^6.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
